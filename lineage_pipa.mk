@@ -14,11 +14,6 @@ $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 # Inherit from pipa device.
 $(call inherit-product, device/xiaomi/pipa/device.mk)
 
-# Inherit keys only if they are not included before.
-ifndef ANDROID_PRIV_KEYS_MK_INCLUDED
-$(call inherit-product, vendor/lineage-priv/keys/keys.mk)
-endif
-
 # Derpfest Flags
 DERPFEST_BUILD_TYPE := Community
 TARGET_EXCLUDE_BACKUPTOOL := false
