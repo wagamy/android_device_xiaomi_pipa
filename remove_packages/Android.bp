@@ -1,5 +1,5 @@
 android_app_import {
-    name: "RemovePackages",
+    name: "RemovePackagesPipa",
     apk: "DebloatDummy.apk",
     presigned: true,
     preprocessed: true,

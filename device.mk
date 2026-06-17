@@ -32,7 +32,7 @@ PRODUCT_PACKAGES += \
 
 # Debloat
 PRODUCT_PACKAGES += \
-    RemovePackages
+    RemovePackagesPipa
 
 # MIDL
 PRODUCT_COPY_FILES += \
