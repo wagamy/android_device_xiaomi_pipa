@@ -12,7 +12,7 @@ on boot
     chmod 0664 /dev/xiaomi-touch
     chown system system /dev/nanodev0
     chmod 0664 /dev/nanodev0
-    
+
 # Don't auto-start keyboard service
 # it will be started via property trigger when user enables it in settings
 service xiaomi-pen /vendor/bin/xiaomi-pen ${persist.vendor.parts.pen}
