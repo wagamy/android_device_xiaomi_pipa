@@ -75,3 +75,6 @@ PRODUCT_PACKAGES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/pipa/pipa-vendor.mk)
+
+# Include ViperFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
