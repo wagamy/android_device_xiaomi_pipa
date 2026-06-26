@@ -15,7 +15,7 @@ $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 $(call inherit-product, device/xiaomi/pipa/device.mk)
 
 # Derpfest Flags
-DERPFEST_BUILD_TYPE := Community
+DERPFEST_BUILD_TYPE := Official
 TARGET_EXCLUDE_BACKUPTOOL := false
 TARGET_INCLUDE_ACCORD := false
 TARGET_SUPPORTS_64_BIT_APPS := true
@@ -33,4 +33,4 @@ PRODUCT_CHARACTERISTICS := tablet
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildFingerprint=Xiaomi/pipa_global/pipa:14/UKQ1.230917.001/OS2.0.14.0.UMZMIXM:user/release-keys
+    BuildFingerprint=Xiaomi/pipa_global/pipa:14/UKQ1.230917.001/OS2.0.16.0.UMZMIXM:user/release-keys
